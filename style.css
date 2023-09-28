@@ -1,6 +1,9 @@
+
+/* ajouter margin left 20px manuellement pour garder les lignes completes */
+
 body {
     font-family: 'Hanken Grotesk', sans-serif;
-    font-size: 80px;
+    font-size: 45px;
     color: black;
     margin: 0px;
 }
@@ -9,4 +12,143 @@ p {
     margin: 0px;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
 
+html {
+    scroll-behavior: smooth;
+  }
+
+.header {
+    display: flex;
+    font-size: 60px;
+}
+
+.nom {
+    margin-left: 20px;
+}
+
+.bouton {
+    display: flex;
+    margin-left: 580px;
+}
+
+.boutonProjet, .boutonInfo {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.description {
+    margin-top: 20px;
+    margin-right: 300px;
+    margin-left: 20px;
+}
+
+.titre {
+    font-size: 65px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.sousTitre {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: -15px;
+
+}
+
+.type {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: -15px;
+}
+
+
+hr.ligneProjet {
+    border: 2px solid black;
+}
+
+.image {
+    width: 600px;
+    margin-top: -10px;
+    margin-left: 400px;
+}
+
+
+
+img {
+    border:5px solid #D2660F;
+    background-color: #D2660F;
+
+}
+
+.ligne {
+    width: 100%;
+    text-align: center;
+    height: 60px;
+}
+
+hr.ligneCategorie {
+    border: 2px solid black;
+    width: 17.2%;
+    margin: 0.8%;
+    display:inline-block;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.container {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.blocCategorie, .blocTitre {
+    width: 95%;
+    margin-left: 35px;
+    margin-right: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoTitre {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.categorie {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.categorie, .infoTitre {
+    flex-basis: 16%;
+}
+
+#elementinfo {
+    margin-bottom: -30px;
+}
+
+.boutonProjet:hover, .boutonInfo:hover, .sousTitre:hover {
+    color: #D2660F;
+    text-decoration: underline;
+}
+
+
+#uni:hover {
+    text-decoration: underline;
+}
+
+span {
+    color: #D2660F;
+}
+
+#linkedin:hover {
+    color: #D2660F;
+    text-decoration: underline;
+}

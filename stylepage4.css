@@ -1,0 +1,130 @@
+/* ajouter margin left 20px manuellement pour garder les lignes completes */
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 45px;
+    color: black;
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.header {
+    display: flex;
+    font-size: 60px;
+}
+
+.nom {
+    margin-left: 20px;
+    top: 0px;
+    left: 0px;
+    position:fixed;
+}
+
+.bigContainer {
+    margin-left: 20px;
+    display: flex;
+}
+
+.projet {
+    top: 50px;
+    left: 20px;
+    position:fixed;
+    }
+
+.titre {
+    font-size: 50px;
+    margin-top: 30px;
+    color: #D2660F;
+}
+
+.attribut {
+    font-size: 25px;
+    width: 700px;   
+    margin-top: 20px;
+}
+
+.sousTitre {
+    display: flex;
+}
+
+.droite {
+    position: absolute;
+    right: 0px;
+}
+
+.gauche {
+    font-weight: 600;
+}
+
+.description {
+    font-size: 15px;
+    width: 700px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.listeImage {
+    margin-top: 152px;
+    margin-left: 700px;
+}
+
+.image {
+    margin: 10px;
+    margin-bottom: 25px;
+    width: 650px;
+}
+
+.containBack {
+    display: flex;
+    font-size: 25px;
+    margin-top: -20px;
+}
+
+.back  {
+    position: absolute;
+    right: 0px;
+}
+
+.fleche {
+    /* width: 40px;
+    height: 20px;
+    background-color: black; */
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.fleche:hover, .back:hover, .nom:hover {
+    color: #D2660F;
+}
+
+.nom:hover {
+    text-decoration: underline;
+}
+
+#blam {
+    text-decoration: underline;
+}
+
+#blam:hover {
+    color: #D2660F;
+}
+
+span {
+    color: #D2660F;
+}
