@@ -6,7 +6,14 @@ body {
     color: black;
     margin: 0px;
 }
+body {
+    cursor: url('souris1.png') , auto;	
+}
 
+a {
+    cursor: url('souris2.png'), auto;	
+
+}
 p {
     margin: 0px;
 }

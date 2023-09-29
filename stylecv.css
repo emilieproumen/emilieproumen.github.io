@@ -10,7 +10,14 @@ body {
 p {
     margin: 0px;
 }
+body {
+    cursor: url('souris1.png') , auto;	
+}
 
+a {
+    cursor: url('souris2.png'), auto;	
+
+}
 a {
     color: black;
     text-decoration: none;
