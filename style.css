@@ -172,7 +172,11 @@ span {
     color: #D2660F;
     text-decoration: underline;
 }
-@media (max-width: 375px) {
+
+.disclaimer {
+    display: none;
+}
+@media (max-width: 750px) {
     
     .boutonProjet, .boutonInfo, .description {
         display: none;
