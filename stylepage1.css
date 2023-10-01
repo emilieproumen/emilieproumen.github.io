@@ -5,15 +5,9 @@ body {
     font-size: 45px;
     color: black;
     margin: 0px;
-}
-body {
     cursor: url('souris1.png') , auto;	
 }
 
-a {
-    cursor: url('souris2.png'), auto;	
-
-}
 p {
     margin: 0px;
 }
@@ -21,6 +15,7 @@ p {
 a {
     color: black;
     text-decoration: none;
+    cursor: url('souris2.png'), auto;	
 }
 
 html {
@@ -42,6 +37,7 @@ html {
 .bigContainer {
     margin-left: 20px;
     display: flex;
+    font-size: 17px;
 }
 
 .projet {
@@ -93,11 +89,10 @@ html {
     width: 650px;
 }
 
-
 .containBack {
     display: flex;
     font-size: 25px;
-    margin-top: -20px;
+    margin-top: -15px;
 
 }
 
@@ -129,3 +124,5 @@ hr {
 span {
     color: #D2660F;
 }
+
+
