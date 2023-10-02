@@ -155,7 +155,7 @@ hr.ligneCategorie {
     margin-bottom: -30px;
 }
 
-.boutonProjet:hover, .boutonInfo:hover, .sousTitre:hover {
+.boutonProjet:hover, .boutonInfo:hover, .sousTitre:hover, #utc:hover {
     color: #D2660F;
 }
 
@@ -176,10 +176,17 @@ span {
 .disclaimer {
     display: none;
 }
+
+#uni {
+    display: none;
+}
 @media (max-width: 750px) {
     
     .boutonProjet, .boutonInfo, .description {
         display: none;
+    }
+    body {
+        width: 100%;
     }
 
     .nom {
