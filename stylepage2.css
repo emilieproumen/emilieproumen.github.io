@@ -5,15 +5,9 @@ body {
     font-size: 45px;
     color: black;
     margin: 0px;
-}
-body {
     cursor: url('souris1.png') , auto;	
 }
 
-a {
-    cursor: url('souris2.png'), auto;	
-
-}
 p {
     margin: 0px;
 }
@@ -21,6 +15,7 @@ p {
 a {
     color: black;
     text-decoration: none;
+    cursor: url('souris2.png'), auto;	
 }
 
 html {

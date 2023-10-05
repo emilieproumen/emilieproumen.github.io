@@ -12,11 +12,11 @@ body {
     font-size: 45px;
     color: black;
     margin: 0px;
-    cursor: url('souris1.png') , auto;	
-    width: 100vw;
-
 }
 
+body {
+    cursor: url('souris1.png') , auto;	
+}
 
 a {
     cursor: url('souris2.png'), auto;	
@@ -36,24 +36,20 @@ html {
   }
 
 .header {
+    display: flex;
     font-size: 60px;
-    width: 100%;
 }
 
 .nom {
-    position: relative;
-    left:20px;
-    float: left;
+    margin-left: 20px;
 }
 
 .bouton {
     display: flex;
-    position: relative;
-    right: 20px;
-    float: right;
+    margin-left: 580px;
 }
 
-.boutonProjet, .boutonInfo, .boutonLangue {
+.boutonProjet, .boutonInfo {
     margin-left: 20px;
     margin-right: 20px;
     text-decoration: underline;
@@ -64,8 +60,6 @@ html {
     margin-top: 20px;
     margin-right: 300px;
     margin-left: 20px;
-    float:left;
-    font-size: 40px;
 }
 
 .titre {
@@ -161,7 +155,7 @@ hr.ligneCategorie {
     margin-bottom: -30px;
 }
 
-.boutonProjet:hover, .boutonInfo:hover, .sousTitre:hover, #utc:hover, .boutonLangue:hover {
+.boutonProjet:hover, .boutonInfo:hover, .sousTitre:hover, #utc:hover {
     color: #D2660F;
 }
 
@@ -188,21 +182,23 @@ span {
 }
 @media (max-width: 750px) {
     
-    .boutonProjet, .boutonInfo, .description, .titre {
+    .boutonProjet, .boutonInfo, .description {
         display: none;
     }
     body {
         width: 100%;
-    
     }
 
     .nom {
         font-size: 40px;
-        left:10px;
-        float: none;
+        margin-left: 10px;
+
     }
 
-
+    .titre {
+        font-size: 33px;
+        margin-left: 10px; 
+    }
 
     .sousTitre {
     font-size: 27px;
